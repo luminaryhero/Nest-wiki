@@ -14,16 +14,20 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        pnpm:
+          - 4.11.1
+        os:
+          - ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: npm
-      - name: Install pnpm
-        run: npm install pnpm -g
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
       - name: Build website
         run: pnpm build
 
