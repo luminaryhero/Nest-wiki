@@ -19,8 +19,6 @@ jobs:
       matrix:
         pnpm:
           - 4.11.1
-        os:
-          - ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
