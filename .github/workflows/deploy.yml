@@ -20,11 +20,12 @@ jobs:
         with:
           node-version: 18
           cache: npm
-
+      - name: Install pnpm
+        run: npm install pnpm -g
       - name: Install dependencies
-        run: npm install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
       - name: Build website
-        run: npm build
+        run: pnpm build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
