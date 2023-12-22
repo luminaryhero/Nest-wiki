@@ -17,8 +17,17 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="docs/介绍">
-            Docusaurus Tutorial - 5min ⏱️
+          <Link
+            className={"button button--secondary button--lg " + styles.mr}
+            to="docs/介绍"
+          >
+            开始 👈
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="https://github.com/luminaryhero/Nest-wiki"
+          >
+            源码 😺
           </Link>
         </div>
       </div>
