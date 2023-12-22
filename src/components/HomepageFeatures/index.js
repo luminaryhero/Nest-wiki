@@ -4,19 +4,19 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "新手友好",
+    title: "初学者友好",
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
-    description: <></>,
+    description: <>面向初学者，快速上手</>,
   },
   {
     title: "官方文档驱动",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
-    description: <></>,
+    description: <>基于官方文档，开箱即用</>,
   },
   {
     title: "奥卡姆剃刀",
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
-    description: <></>,
+    description: <>精简文档，缩短学习周期</>,
   },
 ];
 
