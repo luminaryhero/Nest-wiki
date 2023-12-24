@@ -78,6 +78,11 @@ const sidebars = {
         "安全/速率限制",
       ],
     },
+    {
+      type: "category",
+      label: "CLI",
+      items: ["CLI/概述", "CLI/工作区", "CLI/库", "CLI/用例", "CLI/脚本"],
+    },
   ],
 };
 
