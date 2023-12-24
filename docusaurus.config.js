@@ -16,13 +16,13 @@ const config = {
   url: "https://luminaryhero.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/Nest-wiki/",
+  baseUrl: "/nest-wiki/",
   // baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "luminaryhero", // Usually your GitHub org/user name.
-  projectName: "Nest-wiki", // Usually your repo name.
+  projectName: "nest-wiki", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -70,7 +70,7 @@ const config = {
           },
           // { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/luminaryhero/Nest-wiki",
+            href: "https://github.com/luminaryhero/nest-wiki",
             label: "GitHub",
             position: "right",
           },

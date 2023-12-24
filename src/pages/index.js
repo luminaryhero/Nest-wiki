@@ -25,7 +25,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="https://github.com/luminaryhero/Nest-wiki"
+            to="https://github.com/luminaryhero/nest-wiki"
           >
             源码 😺
           </Link>

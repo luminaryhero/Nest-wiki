@@ -1,6 +1,6 @@
 {
-  "name": "Nest-wiki",
-  "version": "0.0.0",
+  "name": "nest-wiki",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
