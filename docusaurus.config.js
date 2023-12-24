@@ -8,7 +8,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Nest wiki",
+  title: "nest wiki",
   tagline: "致力成为最好的Nest文档",
   favicon: "img/favicon.ico",
 
