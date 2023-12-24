@@ -83,6 +83,21 @@ const sidebars = {
       label: "CLI",
       items: ["CLI/概述", "CLI/工作区", "CLI/库", "CLI/用例", "CLI/脚本"],
     },
+    {
+      type: "category",
+      label: "OPENAPI",
+      items: [
+        "OPENAPI/介绍",
+        "OPENAPI/类型和参数",
+        "OPENAPI/操作",
+        "OPENAPI/安全",
+        "OPENAPI/映射类型",
+        "OPENAPI/装饰器",
+        "OPENAPI/CLI插件",
+        "OPENAPI/其他特性",
+        "OPENAPI/迁移指南",
+      ],
+    },
   ],
 };
 
