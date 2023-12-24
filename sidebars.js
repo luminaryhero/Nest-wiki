@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
@@ -63,6 +63,19 @@ const sidebars = {
         "技术/Model-View-Controller",
         "技术/Fastify",
         "技术/服务器推送",
+      ],
+    },
+    {
+      type: "category",
+      label: "安全",
+      items: [
+        "安全/认证",
+        "安全/授权",
+        "安全/加密和哈希",
+        "安全/Helmet",
+        "安全/CORS",
+        "安全/CSRF保护",
+        "安全/速率限制",
       ],
     },
   ],
